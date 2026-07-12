@@ -79,4 +79,5 @@ jobs:
         run: |
           echo "✅ ShopKart automation completed"
           echo "📊 Offline report is available under Artifacts"
-          echo "🌐 GitHub Pages: https://laharigandla.github.io/ShopKart/
+          echo "🌐 GitHub Pages: https://laharigandla.github.io/UI_API_DB_Testing_ShopKart/
+          
