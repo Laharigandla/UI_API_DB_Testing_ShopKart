@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Product Defects",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*Assertion.*"
+  },
+  {
+    "name": "UI Issues",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*NoSuchElementException.*|.*ElementNotFound.*"
+  },
+  {
+    "name": "Synchronization Issues",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*TimeoutException.*"
+  },
+  {
+    "name": "API Issues",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*HTTP.*|.*RestAssured.*"
+  }
+]
